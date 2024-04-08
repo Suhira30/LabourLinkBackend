@@ -26,7 +26,7 @@ public  class User {
     @Id
     @Column(unique = true,nullable = false)
     @Email(message = "Please enter valid email")
-    private String mail;
+    private String email;
 
     @NotBlank(message = "Field can not be empty")
     private String name;
